@@ -1,0 +1,11 @@
+--- a/Makefile.in	2018-09-14 22:51:18.000000000 +0100
++++ b/Makefile.in	2020-03-17 15:37:37.493186784 +0000
+@@ -407,7 +407,7 @@
+ top_build_prefix = @top_build_prefix@
+ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+-SUBDIRS = src include parser_handlers benchmark	doc_example
++SUBDIRS = src include parser_handlers benchmark
+ ACLOCAL_AMFLAGS = -I m4
+ pcfiles = liborcus-@ORCUS_API_VERSION@.pc $(am__append_1)
+ pkgconfig_DATA = $(pcfiles)
