@@ -1,0 +1,8 @@
+--- a/Makefile.am	2018-09-14 22:51:18.000000000 +0100
++++ b/Makefile.am	2020-03-17 15:37:37.493186784 +0000
+@@ -1,4 +1,4 @@
+-SUBDIRS = src include benchmark	doc_example
++SUBDIRS = src include benchmark
+ ACLOCAL_AMFLAGS = -I m4
+ 
+ pcfiles = liborcus-@ORCUS_API_VERSION@.pc
